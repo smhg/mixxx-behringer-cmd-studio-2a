@@ -1,0 +1,19 @@
+{
+  "name": "mixxx-behringer-cmd-studio-2a",
+  "version": "1.0.0",
+  "description": "Mixxx mapping for Behringer CMD STUDIO 2A MIDI controller",
+  "main": "Behringer CMD STUDIO 2A.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint behringer-cmd-studio-2a-scripts.js"
+  },
+  "author": "Sam Hauglustaine",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.17.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.2",
+    "eslint-plugin-promise": "^6.0.0"
+  }
+}
