@@ -1,0 +1,554 @@
+<?xml version='1.0' encoding='utf-8'?>
+<MixxxControllerPreset schemaVersion="1" mixxxVersion="2.0.0+">
+    <info>
+        <name>Behringer CMD STUDIO 2A</name>
+        <author>Sam Hauglustaine</author>
+        <description>Behringer CMD STUDIO 2A</description>
+        <wiki>https://github.com/mixxxdj/mixxx/wiki/Behringer-Cmd-Studio-2A</wiki>
+    </info>
+    <controller id="Studio">
+        <scriptfiles>
+            <file functionprefix="BehringerCmdStudio2a" filename="behringer-cmd-studio-2a-scripts.js"/>
+        </scriptfiles>
+        <controls>
+            <control>
+                <group>[Channel1]</group>
+                <key>cue_default</key>
+                <description>Cue A release</description>
+                <status>0x80</status>
+                <midino>0x01</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>cue_default</key>
+                <description>Cue A</description>
+                <status>0x90</status>
+                <midino>0x01</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>play</key>
+                <description>Play A</description>
+                <status>0x90</status>
+                <midino>0x02</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>BehringerCmdStudio2a.wheelTouch</key>
+                <description>Jog A Touch release</description>
+                <status>0x80</status>
+                <midino>0x03</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>BehringerCmdStudio2a.wheelTouch</key>
+                <description>Jog A Touch</description>
+                <status>0x90</status>
+                <midino>0x03</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>BehringerCmdStudio2a.wheelTurn</key>
+                <description>Jog A</description>
+                <status>0xB0</status>
+                <midino>0x03</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>sync_enabled</key>
+                <description>Deck A Sync button.</description>
+                <status>0x90</status>
+                <midino>0x04</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>rate</key>
+                <description>Deck A Pitch Rotary.</description>
+                <status>0xB0</status>
+                <midino>0x05</midino>
+                <options>
+                    <rot64/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>rate_temp_down</key>
+                <description>Pitch down A release</description>
+                <status>0x80</status>
+                <midino>0x06</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>rate_temp_down</key>
+                <description>Pitch down A</description>
+                <status>0x90</status>
+                <midino>0x06</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>rate_temp_up</key>
+                <description>Pitch up A release</description>
+                <status>0x80</status>
+                <midino>0x07</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>rate_temp_up</key>
+                <description>Pitch up A</description>
+                <status>0x90</status>
+                <midino>0x07</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[EqualizerRack1_[Channel1]_Effect1]</group>
+                <key>parameter3</key>
+                <description>High A</description>
+                <status>0xB0</status>
+                <midino>0x13</midino>
+                <options>
+                    <soft-takeover/>
+                </options>
+            </control>
+            <control>
+                <group>[EqualizerRack1_[Channel1]_Effect1]</group>
+                <key>parameter2</key>
+                <description>Mid A</description>
+                <status>0xB0</status>
+                <midino>0x14</midino>
+                <options>
+                    <soft-takeover/>
+                </options>
+            </control>
+            <control>
+                <group>[EqualizerRack1_[Channel1]_Effect1]</group>
+                <key>parameter1</key>
+                <description>Low A</description>
+                <status>0xB0</status>
+                <midino>0x15</midino>
+                <options>
+                    <soft-takeover/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>LoadSelectedTrack</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x80</status>
+                <midino>0x16</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>LoadSelectedTrack</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x90</status>
+                <midino>0x16</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>LoadSelectedTrackAndPlay</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x80</status>
+                <midino>0x17</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>LoadSelectedTrackAndPlay</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x90</status>
+                <midino>0x17</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>volume</key>
+                <description>Deck A Fader.</description>
+                <status>0xB0</status>
+                <midino>0x18</midino>
+                <options>
+                    <soft-takeover/>
+                </options>
+            </control>
+            <control>
+                <group>[Master]</group>
+                <key>crossfader</key>
+                <description>MIDI Learned from 297 messages.</description>
+                <status>0xB0</status>
+                <midino>0x20</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Master]</group>
+                <key>headGain</key>
+                <description>Headphone Volume</description>
+                <status>0xB0</status>
+                <midino>0x21</midino>
+                <options>
+                    <soft-takeover/>
+                </options>
+            </control>
+            <control>
+                <group>[Library]</group>
+                <key>MoveUp</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x80</status>
+                <midino>0x24</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Library]</group>
+                <key>MoveUp</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x90</status>
+                <midino>0x24</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Library]</group>
+                <key>MoveFocusBackward</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x80</status>
+                <midino>0x25</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Library]</group>
+                <key>MoveFocusBackward</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x90</status>
+                <midino>0x25</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Library]</group>
+                <key>MoveFocusForward</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x80</status>
+                <midino>0x26</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Library]</group>
+                <key>MoveFocusForward</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x90</status>
+                <midino>0x26</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Library]</group>
+                <key>MoveDown</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x80</status>
+                <midino>0x27</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Library]</group>
+                <key>MoveDown</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x90</status>
+                <midino>0x27</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>cue_default</key>
+                <description>Cue B release</description>
+                <status>0x80</status>
+                <midino>0x31</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>cue_default</key>
+                <description>Cue B</description>
+                <status>0x90</status>
+                <midino>0x31</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>play</key>
+                <description>Play B</description>
+                <status>0x90</status>
+                <midino>0x32</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>BehringerCmdStudio2a.wheelTouch</key>
+                <description>Jog B Touch release</description>
+                <status>0x80</status>
+                <midino>0x33</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>BehringerCmdStudio2a.wheelTouch</key>
+                <description>Jog B Touch</description>
+                <status>0x90</status>
+                <midino>0x33</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>BehringerCmdStudio2a.wheelTurn</key>
+                <description>Jog B</description>
+                <status>0xB0</status>
+                <midino>0x33</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>sync_enabled</key>
+                <description>Deck B Sync button.</description>
+                <status>0x90</status>
+                <midino>0x34</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>rate</key>
+                <description>Deck B Pitch Rotary.</description>
+                <status>0xB0</status>
+                <midino>0x35</midino>
+                <options>
+                    <rot64/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>rate_temp_down</key>
+                <description>Pitch down A release</description>
+                <status>0x80</status>
+                <midino>0x36</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>rate_temp_down</key>
+                <description>Pitch down A</description>
+                <status>0x90</status>
+                <midino>0x36</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>rate_temp_up</key>
+                <description>Pitch up A release</description>
+                <status>0x80</status>
+                <midino>0x37</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>rate_temp_up</key>
+                <description>Pitch up A</description>
+                <status>0x90</status>
+                <midino>0x37</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[EqualizerRack1_[Channel2]_Effect1]</group>
+                <key>parameter3</key>
+                <description>High B</description>
+                <status>0xB0</status>
+                <midino>0x43</midino>
+                <options>
+                    <soft-takeover/>
+                </options>
+            </control>
+            <control>
+                <group>[EqualizerRack1_[Channel2]_Effect1]</group>
+                <key>parameter2</key>
+                <description>Mid B</description>
+                <status>0xB0</status>
+                <midino>0x44</midino>
+                <options>
+                    <soft-takeover/>
+                </options>
+            </control>
+            <control>
+                <group>[EqualizerRack1_[Channel2]_Effect1]</group>
+                <key>parameter1</key>
+                <description>Low B</description>
+                <status>0xB0</status>
+                <midino>0x45</midino>
+                <options>
+                    <soft-takeover/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>LoadSelectedTrack</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x80</status>
+                <midino>0x46</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>LoadSelectedTrack</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x90</status>
+                <midino>0x46</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>LoadSelectedTrackAndPlay</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x80</status>
+                <midino>0x47</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>LoadSelectedTrackAndPlay</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x90</status>
+                <midino>0x47</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>volume</key>
+                <description>Deck B Fader.</description>
+                <status>0xB0</status>
+                <midino>0x48</midino>
+                <options>
+                    <soft-takeover/>
+                </options>
+            </control>
+        </controls>
+        <outputs>
+            <output>
+                <group>[Channel1]</group>
+                <key>cue_indicator</key>
+                <description>Deck A Cue Button</description>
+                <status>0x90</status>
+                <midino>0x01</midino>
+                <on>0x01</on>
+                <minimum>0.1</minimum>
+            </output>
+            <output>
+                <group>[Channel1]</group>
+                <key>play_indicator</key>
+                <description>Deck A Play Button</description>
+                <status>0x90</status>
+                <midino>0x02</midino>
+                <on>0x01</on>
+                <minimum>0.1</minimum>
+            </output>
+            <output>
+                <group>[Channel2]</group>
+                <key>cue_indicator</key>
+                <description>Deck B Cue Button</description>
+                <status>0x90</status>
+                <midino>0x31</midino>
+                <on>0x01</on>
+                <minimum>0.1</minimum>
+            </output>
+            <output>
+                <group>[Channel2]</group>
+                <key>play_indicator</key>
+                <description>Deck B Play Button</description>
+                <status>0x90</status>
+                <midino>0x32</midino>
+                <on>0x01</on>
+                <minimum>0.1</minimum>
+            </output>
+        </outputs>
+    </controller>
+</MixxxControllerPreset>
