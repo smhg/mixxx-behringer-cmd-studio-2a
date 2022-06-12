@@ -3,7 +3,7 @@
 Based on the work of Barney Garrett
 
 ### Todo
-[ ] use more LED colors
+- [ ] use more LED colors
 
 ### Links
 * [Mixxx Wiki](https://github.com/mixxxdj/mixxx/wiki/Behringer-Cmd-Studio-2A)
