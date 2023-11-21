@@ -2,6 +2,11 @@
 
 Based on the work of Barney Garrett
 
+### Installation
+```bash
+git clone [repo] ~/.mixxx/controllers
+```
+
 ### Todo
 - [ ] use more LED colors
 
